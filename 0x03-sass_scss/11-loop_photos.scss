@@ -1,0 +1,9 @@
+/* Using each flow control */
+
+@import '11-photos.scss';
+
+@each $name in $list-name {
+    .photo-#{$name} {
+        background-image: image-url("photos/#{$name}.jpg") no-repeat;
+    }
+}
