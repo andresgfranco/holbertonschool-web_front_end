@@ -1,0 +1,87 @@
+:root {
+  --color-white: #ffffff;
+}
+
+body {
+  display: block;
+  position: absolute;
+  top: 4%;
+  left: 25%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 150px;
+}
+
+.box1 {
+  background-color: #1fcd6c;
+  color: var(--color-white);
+  align-content: center;
+  position: relative;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  height: 45%;
+  width: 100px;
+  top: 15%
+}
+
+.box2 {
+  background-color: #2d98de;
+  color: var(--color-white);
+  align-content: center;
+  position: relative;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  height: 65%;
+  width: 150px;
+  top: 8%;
+}
+
+.box3 {
+  background-color: #344a61;
+  color: var(--color-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 75px;
+  width: 250px;
+}
+
+.box4 {
+  background-color: #9d55b9;
+  color: var(--color-white);
+  align-content: center;
+  position: relative;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  height: 65%;
+  width: 150px;
+  top: 8%;
+}
+
+.box5 {
+  background-color: #e97e02;
+  color: var(--color-white);
+  align-content: center;
+  position: relative;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  height: 45%;
+  width: 100px;
+  top: 15%
+}
